@@ -38,4 +38,4 @@ def superheatCalculation(Tsh, TCorr, pSh, ncg):
     return (Tsh + TCorr) - steamTable.tsat_p(pshNCG)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
